@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&family=Quicksa')
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*css brand logo dan nama*/
+.brand span{
+    margin-left: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    color: #89a7b1;
+    text-decoration: none;
+}
+.brand li,a{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: #cbe1f7;
+    text-decoration: none;
+}
+.brand button{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
+    background-color: maroon;
+}
+.brand{
+    list-style: none;
+}
+.brand li{ 
+    display: inline-block;
+    padding: 5px;
+}
+.brand span{
+    margin-right: 200px;
+    text-shadow: 2px 2px 5px black;
+}
+
+.brand li a:hover{
+    color: rgb(174, 223, 61);
+}
+ 
+.brand input[type=search]{
+    border-radius: 10px;
+    padding: 6px 7px;
+}
+.brand button{
+    padding: 9px 10px;
+    background-color: rgb(213, 237, 243);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.brand button:hover{
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+/*jumbotron*/
+.jumbotron{
+    height: 550px;
+    margin-top: 0px;
+    font-family: "Poppins", sans-serif;
+    background-image: url('images/batur1.jpg');
+    background-size: cover;
+    background-position-y:-100px ;
+
+}.jumbotron:hover{
+    background-image: url('images/batur2.jpg');
+
+}
+.text-brand{
+    margin-left: 50px;
+    padding: 70px;
+    color: white;
+}
+.text-brand h1{
+    font-size: 50px;
+    text-shadow: 2px 2px 5px red;
+}
+.text-brand p{
+    font-size: 17px;
+    text-align: justify;
+    text-shadow: 1px 1px;
+    color: white;
+}
+.btn-jelajahi{
+    width: 200px;
+    height: 50px;
+    background-color: #79c972;
+    text-align: center;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px black;
+}
+.btn-jelajahi:hover{
+    background-color: #e2db73;
+}
+.btn-jelajahi  a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    text-shadow: 2px 2px 5px navy;
+}
+.btn-video{
+    width: 200px;
+    height: 50px;
+    background-color: #e2db73;
+    text-align: center;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px black;
+}
+.btn-video:hover{
+    background-color: #79c972;
+}
+.btn-video a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+/*content objek wisata*/
+.objekwisata .kolom{
+    margin: 5px;
+    padding: 10px;
+    background-color: paleturquoise;
+    column-count: 2;
+    -moz-column-count: 2;
+        -webkit-column-count: 2;
+        column-gap: 20px;
+        -moz-column-gap: 20px;
+        -webkit-column-gap: 20px;
+        border: 1px solid #ccc;
+}
+.objekwisata .gambarobjek{
+    width: 100%;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.gambar .title{
+    text-align: center;
+    font-size: 15px;
+}
+.objekwisata .isian{
+    font-size: 35px;
+    text-align: justify;
+}
+
+.objekwisata .isian p{
+    font-size: 20px;
+    text-align: justify;
+    padding: 5px;
+}
+.objekwisata .isian .baca{
+    font-size: 20px;
+    text-align: justify;
+    color: black;
+    text-decoration: none;
+}
+.link-img{
+    text-decoration: none;
+    font-size: 20px;
+    color: navy;
+    text-shadow: 1px 1px 3px red;
+}
+/*Sarana Akomodasi*/
+.kolom{
+    margin: 5px;
+    padding: 10px;
+    background-color: paleturquoise;
+    column-count: 3;
+    -moz-column-count: 3;
+        -webkit-column-count: 3;
+        column-gap: 20px;
+        -moz-column-gap: 20px;
+        -webkit-column-gap: 20px;
+        border: 1px solid #ccc;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+
+.price{
+    color: black;
+    font-size: 22px;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 5px;
+    color: white;
+    background-color: navy;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.card button:hover {
+    opacity: 0.7;
+}
+
+/*kontak pesan*/
+.kontak-pesan{
+    margin: 7px;
+    padding: 15px;
+    background-color: paleturquoise;
+    column-count: 2;
+    -moz-column-count: 2;
+        -webkit-column-count: 2;
+        column-gap: 20px;
+        -moz-column-gap: 20px;
+        -webkit-column-gap: 20px;
+        border: 1px solid #ccc;
+}
+.form{
+    position: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: powderblue;
+    width: 605px;
+    height: 400px;
+
+}
+.form .nama, .email, .hari, .pesan, .tombol{
+    width: 99%;
+    height: 40px;
+    padding-top: 10px;
+    margin-top: 10px;
+
+}
+.form .tombol{
+    border-radius: 10px;
+    padding: 1px 10px 10px;
+    text-align: center;
+    text-decoration-style: bold;
+    background-color: #FFF338;
+
+}
+.form h3{
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
+.form .pesan{
+    height: 30px;
+}
+
+/*footer*/
+footer{
+    margin: 0px;
+    padding: 10px 5%;
+    background-color: maroon;
+    column-count: 3;
+    -moz-column-count: 3;
+    -webkit-column-count: 3;
+    column-gap: 40px;
+    -moz-column-gap: 40px;
+    -webkit-column-gap: 40px;
+    border: 1px solid #ccc;
+}
+footer p{
+    text-align: justify;
+    font-size: 20px;
+    color: white;
+}
+footer ul li{
+    text-decoration: none;
+    list-style: none;
+}
+footer
